@@ -1,0 +1,19 @@
+{
+  "name": "react-filegen",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhameliyasavan/react-filegen.git"
+  },
+  "author": "dhameliyasavan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhameliyasavan/react-filegen/issues"
+  },
+  "homepage": "https://github.com/dhameliyasavan/react-filegen#readme"
+}

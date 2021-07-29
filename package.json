@@ -1,19 +1,48 @@
 {
-  "name": "react-filegen",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dhameliyasavan/react-filegen.git"
-  },
-  "author": "dhameliyasavan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dhameliyasavan/react-filegen/issues"
-  },
-  "homepage": "https://github.com/dhameliyasavan/react-filegen#readme"
+	"name": "react-filegen",
+	"version": "0.1.1",
+	"description": "",
+	"main": "bin/react-filegen",
+	"bin": {
+		"react-filegen": "bin/react-filegen"
+	},
+	"files": [
+		"bin/",
+		"src/",
+		"README.md"
+	],
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dhameliyasavan/react-filegen.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dhameliyasavan/react-filegen/issues"
+	},
+	"homepage": "https://github.com/dhameliyasavan/react-filegen#readme",
+	"dependencies": {
+		"boxen": "^5.0.1",
+		"chalk": "^4.1.1",
+		"commander": "^8.0.0",
+		"fs-extra": "^10.0.0",
+		"inquirer": "^8.1.2",
+		"lodash": "^4.17.21",
+		"yargs": "^17.0.1"
+	},
+	"keywords": [
+		"react",
+		"react js",
+		"react js component",
+		"react cli",
+		"cli",
+		"react js cli",
+    "react file gen",
+    "react file generate",
+    "react redux cli",
+    "redux cli"
+	]
 }

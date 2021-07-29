@@ -18,7 +18,22 @@ npm i react-filegen -g
 npx react-filegen component <Component Name>
 ```
 
+|args           |Values                         |description                                            |
+|---------------|-------------------------------|-------------------------------------------------------|
+|--class        |`boolean`                      | true|false                                            |
+|--style        |`boolean`                      | true|false                                            |
+|--path         |`directory location`           | path if you want to create in diffrent  destination   |
+
+> **Note  :** default value check in your config (reactclitest.json)
+
+
 ## Create Reducer
 ```sh
 npx react-filegen reducer <Reducer Name>
 ```
+
+|args           |Values                         |description                                            |
+|---------------|-------------------------------|-------------------------------------------------------|
+|--path         |`directory location`           | path if you want to create in diffrent  destination   |
+
+> **Note  :** default value check in your config (reactclitest.json)
